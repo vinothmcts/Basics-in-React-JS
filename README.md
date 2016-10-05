@@ -18,7 +18,7 @@
       
 # Step 2 - Create Root Folder
   
-      C:\Users\username\Desktop>mkdir Basics-in-React-JS
+      C:\Users\username\Desktop>mkdir reactApp
       C:\Users\username\Desktop\reactApp>npm init
  
 # Step 3 - Add Dependencies and plugins
