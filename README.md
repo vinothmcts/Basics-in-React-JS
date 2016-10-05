@@ -83,27 +83,28 @@
 
 		 module.exports = config;
   
-      Open the package.json and delete "test" "echo \"Error: no test specified\" && exit 1" inside "scripts" object. We are deleting this line since we will not do any testing in this tutorials. Let's add the start command instead.
+#  Note:
+   Open the package.json and delete "test" "echo \"Error: no test specified\" && exit 1" inside "scripts" object. We are deleting this line since we will not do any testing in this tutorials. Let's add the start command instead.
  
      "start": "webpack-dev-server --hot"
      
 # Step 6 - index.html
   This is just regular HTML. We are setting div id = "app" as a root element for our app and adding index.js script which is our bundled app file.
 
-  <!DOCTYPE html>
-  <html lang = "en">
+	  <!DOCTYPE html>
+	  <html lang = "en">
 
-     <head>
-        <meta charset = "UTF-8">
-        <title>React App</title>
-     </head>
+	     <head>
+		<meta charset = "UTF-8">
+		<title>React App</title>
+	     </head>
 
-     <body>
-        <div id = "app"></div>
-        <script src = "index.js"></script>
-     </body>
+	     <body>
+		<div id = "app"></div>
+		<script src = "index.js"></script>
+	     </body>
 
-  </html>
+	  </html>
   
 # Step 7 - App.jsx and main.js
   This is the first react component. We will explain React components in depth in one of our later tutorials. This component will render Hello World!!!.
