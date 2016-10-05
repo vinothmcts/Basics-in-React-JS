@@ -83,7 +83,7 @@
 
 		 module.exports = config;
   
-#  Note:
+#  NOTE:
    Open the package.json and delete "test" "echo \"Error: no test specified\" && exit 1" inside "scripts" object. We are deleting this line since we will not do any testing in this tutorials. Let's add the start command instead.
  
      "start": "webpack-dev-server --hot"
@@ -133,7 +133,7 @@
 
       ReactDOM.render(<App />, document.getElementById('app'));
       
-  # NOTE
+# NOTE :
   Whenever you want to use something, you need to import it first. If you want to make component usable in other parts of the app, you need to export it after creation and import it in the file where you want to use it.
 
 # Finally  - Running the Server
