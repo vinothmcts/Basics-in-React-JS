@@ -51,37 +51,37 @@
       
 # Step 5 - Set Compiler, Server and Loaders
  
-    Open webpack-config.js file and add the code below. We are setting webpack entry point to be main.js. Output path is the place where bundled app will be served. We are also setting development server to 8080 port. You can choose any port you want. And lastly, we are setting babel loaders to search for js files and use es2015 and react presets that we installed before.
+   Open webpack-config.js file and add the code below. We are setting webpack entry point to be main.js. Output path is the place where bundled app will be served. We are also setting development server to 8080 port. You can choose any port you want. And lastly, we are setting babel loaders to search for js files and use es2015 and react presets that we installed before.
     
- var config = {
-   entry: './main.js',
-	
-   output: {
-      path:'./',
-      filename: 'index.js',
-   },
-	
-   devServer: {
-      inline: true,
-      port: 8080
-   },
-	
-   module: {
-      loaders: [
-         {
-            test: /\.jsx?$/,
-            exclude: /node_modules/,
-            loader: 'babel',
-				
-            query: {
-               presets: ['es2015', 'react']
-            }
-         }
-       ]
-     }
-  }
+		 var config = {
+		   entry: './main.js',
 
-  module.exports = config;
+		   output: {
+		      path:'./',
+		      filename: 'index.js',
+		   },
+
+		   devServer: {
+		      inline: true,
+		      port: 8080
+		   },
+
+		   module: {
+		      loaders: [
+			 {
+			    test: /\.jsx?$/,
+			    exclude: /node_modules/,
+			    loader: 'babel',
+
+			    query: {
+			       presets: ['es2015', 'react']
+			    }
+			 }
+		       ]
+		     }
+		  }
+
+		 module.exports = config;
   
       Open the package.json and delete "test" "echo \"Error: no test specified\" && exit 1" inside "scripts" object. We are deleting this line since we will not do any testing in this tutorials. Let's add the start command instead.
  
@@ -109,8 +109,8 @@
   This is the first react component. We will explain React components in depth in one of our later tutorials. This component will render Hello World!!!.
 
   # App.jsx
-      import React from 'react';
 
+      import React from 'react';
       class App extends React.Component {
          render() {
             return (
