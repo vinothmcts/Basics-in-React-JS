@@ -1,0 +1,36 @@
+.clear{
+	clear: both;
+}
+
+.navigation{
+    float: left;
+    width: 15%;
+    background-color: #394e5c;
+}
+
+.navigation-content{
+	text-align: center;
+}
+
+.navigation-content li a{
+    text-decoration: none;
+    background-color: #5987a5;
+    color: #eeefef;
+    padding: 7px;
+    border-radius: 12px;
+}
+.navigation-content li{
+	padding: 20px 0px;
+}
+.example-content{
+	width: 77%;
+	float: left;
+	margin: 15px;
+
+}
+
+.heading{
+	font-size: 25px;
+	font-weight: bold;
+	padding: 5px 0px 15px;
+}
