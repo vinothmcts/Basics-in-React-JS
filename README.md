@@ -11,17 +11,17 @@
   
 # ReactJS - Environment Setup
   
-  # Step 1 - Install Global Packages
+# Step 1 - Install Global Packages
   
       C:\Users\username>npm install -g babel'
       C:\Users\username>npm install -g babel-cli
       
-  # Step 2 - Create Root Folder
+# Step 2 - Create Root Folder
   
       C:\Users\username\Desktop>mkdir Basics-in-React-JS
       C:\Users\username\Desktop\reactApp>npm init
  
- # Step 3 - Add Dependencies and plugins
+# Step 3 - Add Dependencies and plugins
  
     We will use webpack bundler in these tutorials so let's install webpack and webpack-dev-server.
 
@@ -40,7 +40,7 @@
       C:\Users\username\Desktop\reactApp>npm install babel-preset-react
       C:\Users\username\Desktop\reactApp>npm install babel-preset-es2015
  
- # Step 4 - Create files
+# Step 4 - Create files
  
     Let's create several files that we need. You can add it manually or you can use command prompt.
 
@@ -49,7 +49,7 @@
       C:\Users\username\Desktop\reactApp>touch main.js
       C:\Users\username\Desktop\reactApp>touch webpack.config.js
       
- # Step 5 - Set Compiler, Server and Loaders
+# Step 5 - Set Compiler, Server and Loaders
  
     Open webpack-config.js file and add the code below. We are setting webpack entry point to be main.js. Output path is the place where bundled app will be served. We are also setting development server to 8080 port. You can choose any port you want. And lastly, we are setting babel loaders to search for js files and use es2015 and react presets that we installed before.
     
@@ -135,7 +135,7 @@
   # NOTE
   Whenever you want to use something, you need to import it first. If you want to make component usable in other parts of the app, you need to export it after creation and import it in the file where you want to use it.
 
-# Step 8 - Running the Server
+# Finally  - Running the Server
  
  The setup is finished and we can start the server by running:
 
