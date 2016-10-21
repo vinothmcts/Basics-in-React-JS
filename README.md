@@ -13,7 +13,7 @@
   
 # Step 1 - Install Global Packages
   
-      C:\Users\username>npm install -g babel'
+      C:\Users\username>npm install -g babel
       C:\Users\username>npm install -g babel-cli
       
 # Step 2 - Create Root Folder
