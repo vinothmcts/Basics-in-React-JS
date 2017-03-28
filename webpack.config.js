@@ -8,7 +8,10 @@ var config = {
 	
    devServer: {
       inline: true,
-      port: 6050
+      port: 6050,
+      historyApiFallback: {
+            index: 'index.html'
+      }//Use to direct the page to index html while refresh the app
    },
 	
    module: {
